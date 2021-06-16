@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to Table</title>
+</head>
+<body>
+    <!--Table Start-->
+    <h2>Food Menu</h2>
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Break Fast</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Egg+Tea</td>
+            <td>Veg+Rice</td>
+            <td>Mutton+Bread</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Paratha+Tea</td>
+            <td>Rice</td>
+            <td>Veg+Bread</td>
+        </tr>
+    </table>
+    <!--Table End-->
+    <br />
+    <!--Table for Personal Information Start-->
+    <table border="1" width="500px" cellpadding="5" cellspacing="0">
+        <tr>
+            <td>Name</td>
+            <td>ABC</td>
+        </tr>
+        <tr>
+            <td>Father Name</td>
+            <td>XYZ</td>
+        </tr>
+        <tr>
+            <td>CNIC</td>
+            <td>11111-111111-1</td>
+        </tr>
+        <tr>
+            <td>D.o.B</td>
+            <td>01/01/1980</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>N.S.T Sargodha, Punjab Pakistan</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>testing@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Contact#</td>
+            <td>0321-1234567</td>
+        </tr>
+    </table>
+    <!--Table for Personal Information Start-->
+    <br />
+    <!--Nested Table Start-->
+    <table cellpadding="0" cellspacing="0" width="99%">
+        <tr>
+            <!--Inner Table 1 Start-->
+            <td>
+                <table cellpadding="5" cellspacing="0" Border="1" width="100%">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Total Marks</th>
+                        <th>Mark Obtained</th>
+                        <th>Percentage</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Urdu</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>80%</td>
+                        <th>A</th>
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>100</td>
+                        <td>70</td>
+                        <td>70%</td>
+                        <th>B</th>
+                    </tr>
+                    <tr>
+                        <td>Islamic Studies</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>80%</td>
+                        <th>A</th>
+                    </tr>
+                    <tr>
+                        <td>Pak Stuides</td>
+                        <td>100</td>
+                        <td>75</td>
+                        <td>75%</td>
+                        <th>B+</th>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>100</td>
+                        <td>60</td>
+                        <td>60%</td>
+                        <th>C+</th>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>80%</td>
+                        <th>A</th>
+                    </tr>
+                    <tr>
+                        <td>Maths</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>80%</td>
+                        <th>A</th>
+                    </tr>
+                    <tr>
+                        <td>Chemistery</td>
+                        <td>100</td>
+                        <td>80</td>
+                        <td>80%</td>
+                        <th>A</th>
+                    </tr>
+                </table>
+            </td>
+            <!--Inner Table 1 End-->
+
+            <!--Inner Table 2 Start-->
+            <td width="40%">
+                <table cellpadding="5" cellspacing="0" border="1" width="100%">
+                    <tr>
+                        <th>Grade</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>Above 90%</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>80% - 89%</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>75% - 79%</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>70% - 74%</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>60% - 69%</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>50% - 59%</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>33% - 49%</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>0% - 32%</td>
+                    </tr>
+                </table>
+            </td>
+            <!--Inner Table 2 end-->
+        </tr>
+
+    </table>
+    <!--Nested Table End-->
+    <br />
+    <br />
+    <!--RowSpan & ColSpan Start-->
+    <table cellspacing="0" cellpadding="5" Border="1">
+        <tr>
+            <th>Employee Name</th>
+            <th>Designation</th>
+            <th>City</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Abc</td>
+            <td>G.M</td>
+            <td rowspan="4">Sargodha</td>
+            <td>90,000</td>
+        </tr>
+        <tr>
+            <td>XYZ</td>
+            <td>Branch Manager</td>
+            
+            <td>70,000</td>
+        </tr>
+        <tr>
+            <td>EFG</td>
+            <td>Sales Man</td>
+            
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <td>IJK</td>
+            <td>Sales Man</td>
+            
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>220,000</td>
+        </tr>
+    </table> 
+    <!--RowSpan & ColSpan End-->
+    <br />
+    <br />
+    <br />
+</body>
+</html>
