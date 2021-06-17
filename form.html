@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to Forms</title>
+</head>
+<body>
+    <h1 style="color:blue;font-size:20px;font-family: Arial, Helvetica, sans-serif;text-transform:uppercase">HTML Form</h1>
+
+    <form method="POST" action="#">
+        Name:<input type="text" name="txtName" required size="50" maxlength="20" /><br />
+        Password:<input type="password" name="txtPassword" /><br />
+        Email: <input type="email" name="txtEmail" required /><br />
+        Color:<input type="color" name="txtColor" /><br />
+        Date:<input type="date" name="txtDate" /><br />
+        Are you Student?:<input type="checkbox" name="IsStudent" /><br />
+
+        <br />
+        Gender: Male<input type="radio" value="male" name="RDGender" />
+        FeMale<input type="radio" value="female" name="RDGender" />
+        <br />
+
+        Game: Cricket<input type="radio" value="cricket" name="RDGame" />
+        Football<input type="radio" value="football" name="RDGame" />
+        BaseBall<input type="radio" value="baseball" name="RDGame" />
+        <br />
+
+        Nationality: <select name="SelCountry">
+            <option value="Pakistan">Pakistan</option>
+            <option value="KSA">KSA</option>
+            <option value="Iran">Iran</option>
+            <option value="Turkey">Turkey</option>
+        </select>
+        <br />
+        Message:<textarea name="txtMessage" cols="30" rows="10"></textarea>
+        <br />  
+        <input type="reset" value="Clear" />
+        <input type="submit" name="btnSubmit" value="Send" />
+
+
+    </form>
+</body>
+</html>
